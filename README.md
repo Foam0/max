@@ -140,6 +140,16 @@ curl -x http://127.0.0.1:8080 https://api.ipify.org
 
 ![](img/proxy%20is%20working.jpg)
 
+## Speed
+
+В реальных условиях стабильные ~25 Mbit/s выглядят нормально для этого PoC, но иногда бывает разрыв соединения (connection loss).
+
+![](img/speedtest.png)
+
+![](img/yandex%20speedtest.png)
+
+![](img/connection%20loss.jpg)
+
 ## Debug
 
 `go1` и `go2` по умолчанию печатают счетчики байт по транспорту:
