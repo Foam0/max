@@ -1,0 +1,21 @@
+.DS_Store
+
+# Go build artifacts
+*.exe
+*.exe~
+*.test
+*.out
+bin/
+
+# Local/editor junk
+*.swp
+*.tmp
+*.log
+
+# Captures/archives not part of prod code
+*.har
+har_js/
+har_js_20260204/
+har_js_20260204 copy/
+* copy/
+*.zip
